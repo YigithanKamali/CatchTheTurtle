@@ -22,7 +22,7 @@ def update_score():
     global score
     score += 1
     score_keeper.clear()
-    score_keeper.write(score, align='center', font=SMALL_FONT)
+    score_keeper.write('Score: {} '.format(score), align='center', font=MEDIUM_FONT)
 
 
 def update_time():
